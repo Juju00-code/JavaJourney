@@ -1,0 +1,8 @@
+1.Generics do not work with reference types like int.
+2.They work with wrapper classes like Integer.
+3.Printer highlights simple generics.
+4.AnimalPrinter highlights bounded generics(SuperClass).
+5.BoundedGenerics highlights generics with interfaces.
+6.MultiBoundedGenerics highlights multiple generic thus accepting one class and an interface(
+in positioning the type class comes before the interface).
+7.Generic methods.
