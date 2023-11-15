@@ -1,0 +1,20 @@
+AtomicOpsOne
+
+
+
+
+
+
+AtomicOpsTwo CONCERNS
+1. private static final AtomicReference<String>buyerPin = new AtomicReference<>().
+    1.Fellow one wanted to keep the buyerPin types to string while keeping value to mutable.
+    2.He wanted to prevent race conditons.
+
+2.private static string buyerPin;
+    1.In my opinion, buyerpin has been strongly set to type string while keeping the value mutable so why
+    the final Keyword.
+    2.In my opinion area where buyerpin is accessed and updated are not concurrent since one operation finishes
+    before the other.
+
+            *Did he just choose safety because buyerPin is just accessed and updated in multiple areas.
+            *Else, how do I tell through the code it is going through some concurrency.
