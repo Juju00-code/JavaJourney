@@ -1,0 +1,14 @@
+Java Reflections enables the examination as well as modification of fields and methods of
+classes and interfaces
+
+
+1. Reflections allowed the viewing fields of a class.
+2. Reflections allowed the viewing methods of a class.
+3. Reflections allowed the changing of final variable value.
+4.Reflectiona allowed the use of private static methods.
+5. Some private fields affect how methods in that class work reflections come in handy in solving that issues.
+
+
+Downsides
+1.Can break code especially when methods called using reflections are changed in their class.
+2.Due to executing at runtime it cannot do compiletime optimizations.
